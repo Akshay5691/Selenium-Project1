@@ -83,7 +83,7 @@ public class BasePage {
     @BeforeMethod(alwaysRun =true)
     public void createTestForExtentReport(Method method) {  	
          driver.manage().deleteAllCookies();
-    	 driver.get("https://tutorialsninja.com/demo/");		
+    	 driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");		
         test = extent.createTest(method.getName());
     }
     
